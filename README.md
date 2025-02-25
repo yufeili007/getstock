@@ -31,9 +31,8 @@ Professional stock analysis tool for intraday data visualization and historical 
 git clone https://github.com/yourusername/getstock.git
 cd getstock
 
-
-
 ## Usage 🖥️
+
 Run the application:
 
 python stock_app.py
@@ -54,6 +53,8 @@ Red: Price decrease period
 Gray: Price unchanged period
 
 ## Notes ⚠️
+
+
 Requires stable internet connection
 Data availability depends on Yahoo Finance API
 Complete data only available during NYSE trading hours (09:30-16:00 EST)
