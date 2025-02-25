@@ -28,8 +28,8 @@ Professional stock analysis tool for intraday data visualization and historical 
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/StockAnalysisPro.git
-cd StockAnalysisPro
+git clone https://github.com/yourusername/getstock.git
+cd getstock
 
 
 
