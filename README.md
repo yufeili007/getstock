@@ -1,66 +1,34 @@
-# getstock
-# Stock Analysis Pro 📊⏰
+# getstock 📈🕒
+**Professional Stock Analysis Toolkit**
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Windows%7CLinux%7CMacOS-lightgrey)
 
-Professional stock analysis tool for intraday data visualization and historical data exploration, featuring interactive charts and detailed trade reports.
+<img src="https://via.placeholder.com/800x400.png?text=Sample+Interface+Preview" alt="UI Preview" width="600"/>
 
-## Key Features ✨
+## ✨ Key Features
+- ​**24/7 Analysis**: Track any stock's performance in 24-hour windows
+- ​**Smart Visualization**:
+  - 🟢🔴⚪ Colored volume bars (Up/Down/Neutral)
+  - 📅 Dual-axis time formatting (Local/Exchange time)
+- ​**Precision Tools**:
+  - 🖱️ Hover-activated data points
+  - 📊 Interactive zoom/pan controls
+- ​**Multi-Source Data**: Direct integration with Yahoo Finance API
 
-- 📅 24-hour historical data analysis for any specified date
-- 📈 Interactive time-series chart with price and volume
-- 🎨 Three-color volume bars (green/red/gray for up/down/flat)
-- 🌐 Automatic time zone conversion (New York/Beijing)
-- 📡 Real-time data fetching from Yahoo Finance
-- 📜 Scrollable historical data table
-- 🖱️ Hover-to-show precise data points
+## ⚙️ Tech Stack
+| Component       | Technology | Version |
+|-----------------|------------|---------|
+| Core Framework  | Python     | 3.8+    |
+| GUI             | Tkinter    | -       |
+| Data Fetching   | yfinance   | 0.2+    |
+| Visualization   | Matplotlib | 3.5+    |
+| Data Processing | Pandas     | 1.3+    |
 
-## Tech Stack ⚙️
-
-- GUI Framework: Tkinter
-- Data Fetching: yfinance
-- Visualization: Matplotlib
-- Data Processing: Pandas
-- Time Zone Handling: pytz
-
-## Installation 📦
-
-1. Clone repository:
+## 🚀 Quick Start
+1. ​**Install dependencies**:
 ```bash
-git clone https://github.com/yourusername/getstock.git
-cd getstock
-
-## Usage 🖥️
-
-Run the application:
+pip install yfinance matplotlib pandas pytz
 
 python stock_app.py
-Interface operations:
-
-Enter stock ticker (e.g., AAPL)
-Select date (format: YYYY-MM-DD)
-Choose display time zone
-Click "Generate Report"
-Key interactions:
-
-Main chart: Shows price movement and volume
-Mouse hover: Displays exact time and price
-Data table: Minute-level historical data
-Color coding:
-Green: Price increase period
-Red: Price decrease period
-Gray: Price unchanged period
-
-## Notes ⚠️
-
-
-Requires stable internet connection
-Data availability depends on Yahoo Finance API
-Complete data only available during NYSE trading hours (09:30-16:00 EST)
-No data will be shown for non-trading days
-
-## Contributing 🤝
-We welcome contributions! Please follow these steps:
-
-
