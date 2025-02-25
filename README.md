@@ -53,13 +53,13 @@ Green: Price increase period
 Red: Price decrease period
 Gray: Price unchanged period
 
-##Notes ⚠️
+## Notes ⚠️
 Requires stable internet connection
 Data availability depends on Yahoo Finance API
 Complete data only available during NYSE trading hours (09:30-16:00 EST)
 No data will be shown for non-trading days
 
-##Contributing 🤝
+## Contributing 🤝
 We welcome contributions! Please follow these steps:
 
 
