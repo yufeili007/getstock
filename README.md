@@ -28,5 +28,38 @@ Professional stock analysis tool for intraday data visualization and historical 
 
 1. Clone repository:
 ```bash
-git clone https://github.com/yourusername/getstock.git
-cd getstock
+git clone https://github.com/yourusername/StockAnalysisPro.git
+cd StockAnalysisPro
+
+
+
+## Usage 🖥️
+Run the application:
+
+python stock_app.py
+Interface operations:
+
+Enter stock ticker (e.g., AAPL)
+Select date (format: YYYY-MM-DD)
+Choose display time zone
+Click "Generate Report"
+Key interactions:
+
+Main chart: Shows price movement and volume
+Mouse hover: Displays exact time and price
+Data table: Minute-level historical data
+Color coding:
+Green: Price increase period
+Red: Price decrease period
+Gray: Price unchanged period
+
+##Notes ⚠️
+Requires stable internet connection
+Data availability depends on Yahoo Finance API
+Complete data only available during NYSE trading hours (09:30-16:00 EST)
+No data will be shown for non-trading days
+
+##Contributing 🤝
+We welcome contributions! Please follow these steps:
+
+
